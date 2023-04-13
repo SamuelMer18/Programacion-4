@@ -1,0 +1,23 @@
+.card {
+  background-color: rgb(37, 163, 218);
+  color: white;
+  padding: 10px;
+}
+
+/* que */
+.on {
+  width: 200px;
+  height: 100px;
+  background-image: linear-gradient(red 50%, white 50%);
+}
+
+.off {
+  width: 200px;
+  height: 100px;
+  background-image: linear-gradient(
+    red 33%,
+    yellow 33%,
+    yellow 66.66%,
+    green 66.66%
+  );
+}
