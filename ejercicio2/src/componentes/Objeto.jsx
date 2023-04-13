@@ -1,5 +1,5 @@
 import "./tarjeta.css";
-import imagen1 from "../imagenes/ironman.webp";
+import imagen1 from "../imagenes/ironman.jpg";
 import imagen2 from "../imagenes/spiderman.jpg";
 
 const datos = [
@@ -13,7 +13,7 @@ const datos = [
 export function Objeto() {
   return datos.map((item) => {
     return (
-      <div>
+      <div className="card">
         <h3>{item.nombre}</h3>
         <h3>{item.fecha}</h3>
         <img className="imgtar" src={item.imagen} alt={item.nombre} />
