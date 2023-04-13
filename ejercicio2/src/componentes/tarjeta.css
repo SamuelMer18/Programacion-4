@@ -1,7 +1,13 @@
 .card {
+  border: 10px solid rgb(199, 8, 8);
+  width: 350px;
+  height: 400px;
   background-color: rgb(37, 163, 218);
   color: white;
   padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  flex-direction: column;
 }
 
 /* que */
@@ -22,6 +28,7 @@
   );
 }
 .imgtar {
+  border: 10px solid rgb(247, 247, 247);
   width: 200px;
   height: 200px;
 }
