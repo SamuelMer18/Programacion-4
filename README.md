@@ -1,4 +1,9 @@
 # Programacion 4
+## Listado de Ejercicios
+* [`Ejercicio 1`](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio1) | [Props](https://react.dev/learn/passing-props-to-a-component), Pasar datos a componente, operador ternario, mostrar datos
+* [`Ejercicio 2`](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio2) | 
+[UseState](https://react.dev/reference/react/useState) & [UseEffect](https://react.dev/reference/react/useEffect), Boton like, dislike, Bandera con Css, Cards con datos, Listar Data de Array + Img
+* [`Ejercicio 3`](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio3#readme) | [BrowserRouter, Routes, Route](https://www.w3schools.com/react/react_router.asp) (Links Pagina 1 & 2)
 ## Instalación de React
 
 React es una biblioteca de JavaScript para construir interfaces de usuario. Para usar React en tu proyecto, necesitas seguir estos pasos:
@@ -40,9 +45,3 @@ Este comando iniciará el servidor de desarrollo de React en `http://localhost:3
 ### Paso 4: Empezar a programar con React
 
 ¡Listo! Ahora puedes empezar a programar con React. El código fuente del proyecto de React se encuentra en la carpeta `src`. Puedes editar los archivos en esta carpeta y el servidor de desarrollo se actualizará automáticamente con tus cambios.
-## Listado de Ejercicios
-* [`Ejercicio 1`](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio1) | [Props](https://react.dev/learn/passing-props-to-a-component), Pasar datos a componente, operador ternario, mostrar datos
-* [`Ejercicio 2`](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio2) | 
-[UseState](https://react.dev/reference/react/useState) & [UseEffect](https://react.dev/reference/react/useEffect), Boton like, dislike, Bandera con Css, Cards con datos, Listar Data de Array + Img
-* [`Ejercicio 3`](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio3#readme) | [BrowserRouter, Routes, Route](https://www.w3schools.com/react/react_router.asp) (Links Pagina 1 & 2)
-
