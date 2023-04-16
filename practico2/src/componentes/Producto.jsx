@@ -67,9 +67,8 @@ export function Producto() {
       cantidad: data.cantidad,
       imagen: URL.createObjectURL(data.imagen[0]),
       catalogo: data.catalogo,
-      estado: data.estado,
+      estado: data.estado === "true" ? true : false,
     };
-
     setProductos([...productos, producto]);
     console.log(producto);
   };
@@ -149,7 +148,7 @@ export function Producto() {
             <label>Estado</label>
             <select className="input" {...register("estado")}>
               <option value="true">Disponible</option>
-              <option value="false">Agotado</option>
+              <option value="false">No Disponible</option>
             </select>
           </div>
           <input className="button" type="submit" value="Enviar"></input>
@@ -172,7 +171,10 @@ export function Producto() {
           </thead>
           <tbody>
             {productos.map((producto, index) => (
-              <tr key={index}>
+              <tr
+                className={producto.estado ? "activo" : "inactivo"}
+                key={index}
+              >
                 <td>{producto.codigo}</td>
                 <td>{producto.descripcion}</td>
                 <td>{producto.unidad}</td>
@@ -185,7 +187,7 @@ export function Producto() {
                   />
                 </td>
                 <td>{producto.catalogo}</td>
-                <td>{producto.estado ? "Activo" : "Inactivo"}</td>
+                <td>{producto.estado ? "Disponible" : "No Disponible"}</td>
               </tr>
             ))}
           </tbody>
