@@ -8,7 +8,7 @@ export function Hoo() {
   const dardislike = () => {
     if (likes > 0) setlikes(likes - 1);
   };
-  useEffect(dardislike);
+  // useEffect(dardislike);
   return (
     <div>
       <h1>Los Likes de la Pagina Son: {likes}</h1>
