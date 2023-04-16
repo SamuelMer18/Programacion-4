@@ -1,19 +1,14 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titulo {
+  top: 0;
+  left: 0;
+  position: absolute;
+  margin: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.background {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
