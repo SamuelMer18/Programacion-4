@@ -2,8 +2,7 @@ import "./producto.css";
 import { useForm } from "react-hook-form";
 import { useState } from "react";
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
-// import { DetalleImagen } from "./DetalleImagen";
+import { Link, useNavigate } from "react-router-dom";
 export function Producto() {
   const {
     register,
@@ -74,8 +73,10 @@ export function Producto() {
     setProductos([...productos, producto]);
     console.log(producto);
   };
-  function mostrarAlerta() {
-    alert("¡Haz hecho clic en la imagen!");
+  const navigate = useNavigate();
+
+  function mostrarDetalle(producto) {
+    navigate("/DetalleImagen", { state: producto });
   }
   return (
     <div className="container">
@@ -188,14 +189,12 @@ export function Producto() {
                   <td>{producto.unidad}</td>
                   <td>{producto.cantidad}</td>
                   <td>
-                    {/* <Link to={`/roducto/${producto.codigo}`}> */}
                     <img
                       className="im2"
                       src={producto.imagen}
                       alt={`Imagen de ${producto.descripcion}`}
-                      onClick={mostrarAlerta}
+                      onClick={() => mostrarDetalle(producto)}
                     />
-                    {/* </Link> */}
                   </td>
                   <td>{producto.catalogo}</td>
                   <td>{producto.estado ? "Disponible" : "No Disponible"}</td>

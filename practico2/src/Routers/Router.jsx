@@ -8,7 +8,7 @@ export function Misrutas() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Producto" element={<Producto />} />
-        <Route path="/detalleImagen" component={DetalleImagen} />
+        <Route path="/detalleImagen" element={<DetalleImagen />} />
       </Routes>
     </BrowserRouter>
   );
