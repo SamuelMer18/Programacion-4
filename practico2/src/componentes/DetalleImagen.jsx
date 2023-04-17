@@ -1,7 +1,7 @@
 import "./DetalleImagen.css";
 import { Link } from "react-router-dom";
-
 import { useLocation } from "react-router-dom";
+
 export function DetalleImagen() {
   const { state } = useLocation();
 
