@@ -5,7 +5,6 @@ import { Pagina2 } from "../Pages/Pagina2";
 export function Mirutas() {
   return (
     <div>
-      <h1>Route</h1>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Pagina1 />} />
