@@ -1,5 +1,5 @@
 .columna-listado {
-  color: #545454;
+  color: #282c34;
   background-color: white;
   margin-left: 5%;
   margin-right: 5%;
@@ -39,7 +39,7 @@
 .columna-listado th {
   border: 1px solid #dededf;
   background-color: #eceff1;
-  color: #545454;
+  color: #282c34;
   padding: 5px;
 }
 .columna-listado td {
@@ -55,7 +55,7 @@
   background-color: #ffffff;
 }
 .formulario {
-  color: #545454;
+  color: #282c34;
   background-color: white;
   margin-left: 5%;
   margin-top: 5%;
@@ -74,10 +74,10 @@
   justify-content: space-between;
   align-items: flex-start;
   border-radius: 10px;
-  background-color: #bdd9ff;
+  background-color: #487fb9;
   border-style: solid;
-  border-color: #bdd9ff;
-  margin-top: 6%;
+  border-color: #487fb9;
+  margin-top: 3%;
   margin-left: 3%;
   margin-right: 5%;
   flex-direction: row;
@@ -132,7 +132,7 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0a66c2;
+  background-color: #087ea4;
   border: 0;
   border-radius: 10px;
   box-sizing: border-box;
@@ -162,7 +162,7 @@ label {
 
 .button:hover,
 .button:focus {
-  background-color: #16437e;
+  background-color: #0d6d8c;
   color: #ffffff;
 }
 

@@ -1,13 +1,8 @@
 import "./App.css";
+import { Misrutas } from "./Routers/Router";
 
 function App() {
-  return (
-    <div>
-      <header className="App-header">
-        <h1 className="titulo">Practica 2</h1>
-      </header>
-    </div>
-  );
+  return <Misrutas />;
 }
 
 export default App;
