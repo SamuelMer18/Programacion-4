@@ -1,0 +1,69 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #487fb9;
+  border-style: solid;
+  border-color: #487fb9;
+  margin-top: 3%;
+  flex-direction: row;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: fit-content;
+  height: fit-content;
+}
+.card-body {
+  color: #282c34;
+  background-color: white;
+  margin-left: 5%;
+  margin-top: 5%;
+  border-width: 2px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+  padding: 1em;
+  margin-right: 2em;
+}
+.imagen {
+  margin-left: 2em;
+  width: 200px;
+  height: 200px;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding-left: 0.5em;
+  color: #282c34;
+  background-color: white;
+  margin-top: 5%;
+  border-width: 2px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+  padding: 1em;
+}
+.my-button1 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #087ea4;
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+  /* centrar boton al medio verticalemnte */
+  position: absolute;
+  left: 45%;
+  top: 60%;
+}
