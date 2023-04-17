@@ -74,7 +74,9 @@ export function Producto() {
     setProductos([...productos, producto]);
     console.log(producto);
   };
-
+  function mostrarAlerta() {
+    alert("¡Haz hecho clic en la imagen!");
+  }
   return (
     <div className="container">
       <Link className="my-button2" to="/">
@@ -191,6 +193,7 @@ export function Producto() {
                       className="im2"
                       src={producto.imagen}
                       alt={`Imagen de ${producto.descripcion}`}
+                      onClick={mostrarAlerta}
                     />
                     {/* </Link> */}
                   </td>
