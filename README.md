@@ -4,6 +4,7 @@
 * [`Ejercicio 2`](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio2) | 
 [UseState](https://react.dev/reference/react/useState) & [UseEffect](https://react.dev/reference/react/useEffect), Boton like, dislike, Bandera con Css, Cards con datos, Listar Data de Array + Img
 * [`Ejercicio 3`](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio3#readme) | [BrowserRouter, Routes, Route](https://www.w3schools.com/react/react_router.asp) (Links Pagina 1 & 2)
+* [`Practico 2`](https://github.com/SamuelMer18/Programacion-4/tree/main/practico2) | Practico 2
 ## Instalación de React
 
 React es una biblioteca de JavaScript para construir interfaces de usuario. Para usar React en tu proyecto, necesitas seguir estos pasos:
