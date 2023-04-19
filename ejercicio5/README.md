@@ -53,3 +53,5 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 ```
+
+Continuar con la configuracion de Firebase en la consola de Firebase.
