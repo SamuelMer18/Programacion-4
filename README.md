@@ -1,28 +1,28 @@
 # Programacion 4
 ## Listado de Ejercicios
-* [`Ejercicio 1`](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio1) 
+* [**`Ejercicio 1`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio1) 
   - [Props](https://react.dev/learn/passing-props-to-a-component) 
   - Pasar datos a componente
   - operador ternario 
   - mostrar datos
-* [`Ejercicio 2`](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio2)
+* [[**`Ejercicio 2`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio2)
   - [UseState](https://react.dev/reference/react/useState) 
   - [UseEffect](https://react.dev/reference/react/useEffect) 
   - Boton like, dislike
   - Bandera con Css 
   - Cards con datos 
   - Listar Data de Array + Img
-* [`Ejercicio 3`](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio3#readme) 
+* [**`Ejercicio 3`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio3#readme) 
   - [BrowserRouter, Routes, Route](https://www.w3schools.com/react/react_router.asp) (Links Pagina 1 & 2)
-* [`Ejercicio 4`](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio4)
+* [**`Ejercicio 4`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio4)
   - [BrowserRouter, Routes, Route](https://www.w3schools.com/react/react_router.asp) (Links Pagina 1 & 2)
   - Utilizando el gestor dependencias [Yarn](https://yarnpkg.com/)
   - [Vite](https://vitejs.dev/)
-* [`Ejercicio 5`](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio5#readme) 
+* [**`Ejercicio 5`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio5#readme) 
   - React y Vite y Firebase  
   - Conexion a FireBase
   - Listar, Insertar, Modificar, Eliminar Datos.
-* [`Practico 2`](https://github.com/SamuelMer18/Programacion-4/tree/main/practico2) | Practico 2
+* [**`Practico 2`**](https://github.com/SamuelMer18/Programacion-4/tree/main/practico2) | Practico 2
 ## Instalación de React
 
 React es una biblioteca de JavaScript para construir interfaces de usuario. Para usar React en tu proyecto, necesitas seguir estos pasos:
