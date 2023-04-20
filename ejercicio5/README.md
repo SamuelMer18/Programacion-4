@@ -5,9 +5,9 @@ Este es un repositorio de ejemplo para practicar el uso de React, Vite y Firebas
 Se implementaron funciones para leer todos desde Firestore, editar un dato y eliminar un dato. 
 ## Leer Datos
 Para leer todos, se utilizó el hook useEffect para suscribirse a los cambios en la colección "todos" de Firestore mediante  query y onSnapshot. La suscripción se maneja para que no haya memoria de fuga. 
-##  Funcion Editar
+##  Función Editar
 La función Edit permite editar el título de un todo actualizando su documento en Firestore. Recibe como parámetros el todo a editar y el nuevo título. 
-## Funcion Eliminar
+## Función Eliminar
 La función Eliminar elimina un todo de Firestore mediante deleteDoc. Recibe el id del todo a eliminar.
 
  Estas funciones CRUD permiten mantener sincronizada la lista de todos entre la base de datos y el estado local de la aplicación, persistiendo el progreso entre sesiones. "
