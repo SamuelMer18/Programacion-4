@@ -14,7 +14,7 @@
   - Listar Data de Array + Img
 * [**`Ejercicio 3`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio3#readme) 
   - [BrowserRouter, Routes, Route](https://www.w3schools.com/react/react_router.asp) (Links Pagina 1 & 2)
-* [**`Ejercicio 4`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio4)
+* [**`Ejercicio 4`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio4#readme)
   - [BrowserRouter, Routes, Route](https://www.w3schools.com/react/react_router.asp) (Links Pagina 1 & 2)
   - Utilizando el gestor dependencias [Yarn](https://yarnpkg.com/)
   - [Vite](https://vitejs.dev/)
