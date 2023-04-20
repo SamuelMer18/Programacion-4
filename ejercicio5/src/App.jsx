@@ -1,17 +1,18 @@
 import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import "./App.css";
 import {
   collection,
   doc,
   query,
   onSnapshot,
-  QuerySnapshot,
+  updateDoc,
+  deleteDoc,
 } from "firebase/firestore";
 import { db } from "./Data/Firebase";
 import { AddTodo } from "./components/AddTodo";
 import { Todo } from "./components/Todo";
+import { Titulo } from "./components/Titulo";
 function App() {
   const [todos, setTodos] = useState([]);
   //comandos para leer
@@ -28,24 +29,27 @@ function App() {
   }, []);
   //comandos para Editar
   const Edit = async (todo, title) => {
-    await updateDoc(doc(bd, "todos", todo.id), { title: title });
+    await updateDoc(doc(db, "todos", todo.id), { title: title });
   };
   //comandos para Eliminar
-  const Eliminar = async (todo) => {
-    await deleteDoc(db, "todos", id);
+  const Delete = async (id) => {
+    await deleteDoc(doc(db, "todos", id));
   };
+
   return (
     <div className="App">
       <div>
-        <AddTodo />
+        <Titulo />
       </div>
       <div>
-        {todos.map((todo) => {
-          <Todo todo={todo} Editar={Edit} Eliminar={Eliminar} />;
-        })}
+        <AddTodo />
+      </div>
+      <div className="list">
+        {todos.map((todo) => (
+          <Todo todo={todo} Edit={Edit} Delete={Delete} />
+        ))}
       </div>
     </div>
   );
 }
-
 export default App;

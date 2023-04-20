@@ -4,6 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
+.list {
+  border: 1px solid #ccc;
+}
 
 .logo {
   height: 6em;

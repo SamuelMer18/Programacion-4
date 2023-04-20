@@ -9,7 +9,7 @@ export function AddTodo() {
     if (title !== "") {
       await addDoc(collection(db, "todos"), {
         title,
-        completed: false,
+        completed: true,
       });
       setTitle("");
     }
