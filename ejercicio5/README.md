@@ -5,6 +5,7 @@ Este es un repositorio de ejemplo para practicar el uso de React, Vite y Firebas
 Se implementaron funciones para leer desde Firestore, editar un dato y eliminar un dato. 
 
 ## Pasos Realizados:
+ **Commits:**
 - [Conexion a Firebase,Formulario insertar dato](https://github.com/SamuelMer18/Programacion-4/commit/818264a8a6825d41481267990a306f9adadbf0cb#commitcomment-109897787)
 - [Leer Datos, Funcion Editar, Funcion Eliminar](https://github.com/SamuelMer18/Programacion-4/commit/642d1126110ac96f33b47cccf1af3b808e42cd4d#commitcomment-109858292)
 - [Botones Editar, Eliminar y la funcionalidad asociada en el componente "Todo".](https://github.com/SamuelMer18/Programacion-4/commit/957c4fdb9b81c384e897ff43e6666a8579070e3d#commitcomment-109896784)
