@@ -22,6 +22,8 @@
   - React y Vite y Firebase  
   - Conexion a FireBase
   - Listar, Insertar, Modificar, Eliminar Datos.
+* [**`Ejercicio 6`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio6#readme) 
+  - Autentificacion
 * [**`Practico 2`**](https://github.com/SamuelMer18/Programacion-4/tree/main/practico2) | Practico 2
 ## Instalación de React
 
