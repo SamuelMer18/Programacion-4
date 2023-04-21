@@ -1,5 +1,27 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { auth } from "firebase/auth";
-import { useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Login } from "../components/Login/Login";
+import { Home } from "../components/Home/Home";
+import { Signup } from "../components/Signup/Signup";
+import { auth } from "..//firebase";
 import { useState } from "react";
-export function MisRoutes() {}
+import { useEffect } from "react";
+export function MisRoutes() {
+  const [userName, setUserName] = useState([]);
+  useEffect(() => {
+    auth.onAuthStateChanged((user) => {
+      if (user) {
+        setUserName(user.displayName);
+      } else setUserName("");
+    });
+  }, []);
+
+  return (
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home name={userName} />} />
+        <Route exact path="/login" element={<Login />} />
+        <Route exact path="/signup" element={<Signup />} />
+      </Routes>
+    </Router>
+  );
+}

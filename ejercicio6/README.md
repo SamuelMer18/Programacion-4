@@ -35,3 +35,10 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth();
 ```
+
+<!-- pasos -->
+
+## Pasos
+
+1. Creamos un componente `Login` que nos permita autenticarnos con firebase.
+2. Creamos un componente `Signup` que nos permita registrarnos con firebase.
