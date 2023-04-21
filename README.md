@@ -24,7 +24,10 @@
   - Listar, Insertar, Modificar, Eliminar Datos.
 * [**`Ejercicio 6`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio6#readme) 
   - Autentificacion
-* [**`Practico 2`**](https://github.com/SamuelMer18/Programacion-4/tree/main/practico2) | Practico 2
+  - Iniciar Sesion
+  - Registrar Nuevo Usuario (Nombre, Correo, Contraseña)
+* [**`Practico 2`**](https://github.com/SamuelMer18/Programacion-4/tree/main/practico2)
+  - Practico 2
 ## Instalación de React
 
 React es una biblioteca de JavaScript para construir interfaces de usuario. Para usar React en tu proyecto, necesitas seguir estos pasos:
