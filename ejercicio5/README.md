@@ -63,5 +63,11 @@ const app = initializeApp(firebaseConfig);
 
 ## Continuar con la configuracion de Firebase en la consola de Firebase.
 ### Creamos un Nuevo Proyecto en Firebase
-<img src="https://raw.githubusercontent.com/SamuelMer18/Programacion-4/main/assets/proyecreate.png" ></img>
+<img src="https://raw.githubusercontent.com/SamuelMer18/Programacion-4/main/assets/proyecreate2.png" ></img>
+### Agregamos una App Web
+<img src="https://raw.githubusercontent.com/SamuelMer18/Programacion-4/main/assets/proyecreate3.png" ></img>
+### Creamos una Base de Datos
+<img src="https://raw.githubusercontent.com/SamuelMer18/Programacion-4/main/assets/proyecreate4.png" ></img>
+
+
 
