@@ -36,10 +36,17 @@ Instalar el SDK de Firebase para tu proyecto web:
 ```bash
 npm install firebase
 ```
+## Continuar con la configuracion de Firebase en la consola de Firebase.
+### Creamos un Nuevo Proyecto en Firebase
+<img src="https://raw.githubusercontent.com/SamuelMer18/Programacion-4/main/assets/proyecreate2.png" ></img>
+### Agregamos una App Web
+<img src="https://raw.githubusercontent.com/SamuelMer18/Programacion-4/main/assets/proyecreate3.png" ></img>
+### Creamos una Base de Datos
+<img src="https://raw.githubusercontent.com/SamuelMer18/Programacion-4/main/assets/proyecreate4.png" ></img>
 
 ### Agrega Firebase a tu proyecto web
 
-Agrega Firebase a tu proyecto web:
+Inicializa Firebase y comienza a usar los SDK:
 
 ```javascript
 // Import the functions you need from the SDKs you need
@@ -60,14 +67,3 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 ```
-
-## Continuar con la configuracion de Firebase en la consola de Firebase.
-### Creamos un Nuevo Proyecto en Firebase
-<img src="https://raw.githubusercontent.com/SamuelMer18/Programacion-4/main/assets/proyecreate2.png" ></img>
-### Agregamos una App Web
-<img src="https://raw.githubusercontent.com/SamuelMer18/Programacion-4/main/assets/proyecreate3.png" ></img>
-### Creamos una Base de Datos
-<img src="https://raw.githubusercontent.com/SamuelMer18/Programacion-4/main/assets/proyecreate4.png" ></img>
-
-
-
