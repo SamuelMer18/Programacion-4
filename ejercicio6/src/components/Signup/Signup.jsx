@@ -60,9 +60,7 @@ export function Signup() {
         />
         <div>
           <b>{errorMsg}</b>
-          <button onClick={registro} enabled>
-            Guardar
-          </button>
+          <button onClick={registro}>Guardar</button>
           <p>
             Si ya tienes una cuenta inicia sesión
             <span>

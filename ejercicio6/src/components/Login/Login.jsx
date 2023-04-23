@@ -15,14 +15,14 @@ export function Login() {
       return;
     }
     setErrorMsg("");
-    setSubmitButtonDisabled(true);
+    // setSubmitButtonDisabled(true);
     signInWithEmailAndPassword(auth, values.email, values.pass)
       .then(async (res) => {
-        setSubmitButtonDisabled(false);
+        // setSubmitButtonDisabled(false);
         navigate("/");
       })
       .catch((err) => {
-        setSubmitButtonDisabled(false);
+        // setSubmitButtonDisabled(false);
         setErrorMsg(err.message);
       });
   };
@@ -48,13 +48,11 @@ export function Login() {
 
         <div>
           <b>{errorMsg}</b>
-          <button onClick={Iniciar} enabled>
-            Iniciar Sesion
-          </button>
+          <button onClick={Iniciar}>Iniciar Sesion</button>
           <p>
             Crear cuenta
             <span>
-              <Link to="/signup"> ir</Link>
+              <Link to="/signup"> Crea una Nueva Cuenta</Link>
             </span>
           </p>
         </div>
