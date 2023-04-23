@@ -21,7 +21,7 @@ Creamos la conexión con firebase e importando auth en el archivo `firebase.js`:
 ```js
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
-
+<!-- Insertar tu Conexion aqui  -->
 const firebaseConfig = {
   apiKey: "",
   authDomain: "",
