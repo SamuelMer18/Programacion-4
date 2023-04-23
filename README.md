@@ -5,7 +5,7 @@
   - Pasar datos a componente
   - operador ternario 
   - mostrar datos
-* [[**`Ejercicio 2`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio2)
+* [**`Ejercicio 2`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio2)
   - [UseState](https://react.dev/reference/react/useState) 
   - [UseEffect](https://react.dev/reference/react/useEffect) 
   - Boton like, dislike
