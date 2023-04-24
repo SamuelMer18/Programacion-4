@@ -6,21 +6,22 @@ function salir() {
 }
 export function Home(props) {
   return (
-    <div>
-      <div>
-        <div>
-          <h1 className="text-3xl font-bold underline">Hello world!</h1>
-          <h1>
-            <Link to="/login">Login</Link>
-          </h1>
-          <br />
-          <h1>
-            <Link to="/signup">Registrar</Link>
-          </h1>
+    <section className="bg-gray-300 dark:bg-gray-900">
+      <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+        <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+          <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
+            <h1 className="text-xl font-bold  leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+              {props.name ? `Bienvenido - ${props.name}` : "Inicie sesión"}
+            </h1>
+            <button
+              onClick={salir}
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            >
+              Salir
+            </button>
+          </div>
         </div>
       </div>
-      <h2>{props.name ? `Bienvenido - ${props.name}` : "Inicie sesión"}</h2>
-      <button onClick={salir}>Salir</button>
-    </div>
+    </section>
   );
 }
