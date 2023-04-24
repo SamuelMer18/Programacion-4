@@ -36,8 +36,8 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth();
 ```
 ## Pasos FireBase 
-<img src="https://raw.githubusercontent.com/SamuelMer18/Programacion-4/main/assets/proyecreate5.png" ></img>
-<img src="https://raw.githubusercontent.com/SamuelMer18/Programacion-4/main/assets/proyecreate6.png"  width=680px ></img>
+<img src="https://raw.githubusercontent.com/SamuelMer18/Programacion-4/main/assets1/proyecreate5.png" ></img>
+<img src="https://raw.githubusercontent.com/SamuelMer18/Programacion-4/main/assets1/proyecreate6.png"  width=680px ></img>
 
 
 <!-- Pasos -->
