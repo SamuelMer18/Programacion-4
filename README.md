@@ -26,8 +26,12 @@
   - Autentificacion
   - Iniciar Sesion
   - Registrar Nuevo Usuario (Nombre, Correo, Contraseña)
+* [**`Ejercicio 7`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio7#readme) 
+  - Insertar y Guardar Imagenes en Firebase
+  - Uso de Libreria [styled-components](https://styled-components.com/)
+  - FireBase Storage
 * [**`Practico 2`**](https://github.com/SamuelMer18/Programacion-4/tree/main/practico2)
-  - Practico 2
+* [**`Practico 3`**](https://github.com/SamuelMer18/Programacion-4/tree/main/practico3)
 ## Instalación de React
 
 React es una biblioteca de JavaScript para construir interfaces de usuario. Para usar React en tu proyecto, necesitas seguir estos pasos:
