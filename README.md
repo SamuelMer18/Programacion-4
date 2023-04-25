@@ -1,37 +1,40 @@
 # Programacion 4
+
 ## Listado de Ejercicios
-* [**`Ejercicio 1`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio1) 
-  - [Props](https://react.dev/learn/passing-props-to-a-component) 
+
+- [**`Ejercicio 1`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio1)
+  - [Props](https://react.dev/learn/passing-props-to-a-component)
   - Pasar datos a componente
-  - operador ternario 
+  - operador ternario
   - mostrar datos
-* [**`Ejercicio 2`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio2)
-  - [UseState](https://react.dev/reference/react/useState) 
-  - [UseEffect](https://react.dev/reference/react/useEffect) 
+- [**`Ejercicio 2`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio2)
+  - [UseState](https://react.dev/reference/react/useState)
+  - [UseEffect](https://react.dev/reference/react/useEffect)
   - Boton like, dislike
-  - Bandera con Css 
-  - Cards con datos 
+  - Bandera con Css
+  - Cards con datos
   - Listar Data de Array + Img
-* [**`Ejercicio 3`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio3#readme) 
+- [**`Ejercicio 3`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio3#readme)
   - [BrowserRouter, Routes, Route](https://www.w3schools.com/react/react_router.asp) (Links Pagina 1 & 2)
-* [**`Ejercicio 4`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio4#readme)
+- [**`Ejercicio 4`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio4#readme)
   - [BrowserRouter, Routes, Route](https://www.w3schools.com/react/react_router.asp) (Links Pagina 1 & 2)
   - Utilizando el gestor dependencias [Yarn](https://yarnpkg.com/)
   - [Vite](https://vitejs.dev/)
-* [**`Ejercicio 5`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio5#readme) 
-  - React y Vite y Firebase  
+- [**`Ejercicio 5`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio5#readme)
+  - React y Vite y Firebase
   - Conexion a FireBase
   - Listar, Insertar, Modificar, Eliminar Datos.
-* [**`Ejercicio 6`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio6#readme) 
+- [**`Ejercicio 6`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio6#readme)
   - Autentificacion
   - Iniciar Sesion
   - Registrar Nuevo Usuario (Nombre, Correo, Contraseña)
-* [**`Ejercicio 7`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio7#readme) 
+- [**`Ejercicio 7`**](https://github.com/SamuelMer18/Programacion-4/tree/main/ejercicio7#readme)
   - Insertar y Guardar Imagenes en Firebase
   - Uso de Libreria [styled-components](https://styled-components.com/)
   - FireBase Storage
-* [**`Practico 2`**](https://github.com/SamuelMer18/Programacion-4/tree/main/practico2)
-* [**`Practico 3`**](https://github.com/SamuelMer18/Programacion-4/tree/main/practico3)
+- [**`Practico 2`**](https://github.com/SamuelMer18/Programacion-4/tree/main/practico2)
+- [**`Practico 3`**](https://github.com/SamuelMer18/Programacion-4/tree/main/practico3#readme)
+
 ## Instalación de React
 
 React es una biblioteca de JavaScript para construir interfaces de usuario. Para usar React en tu proyecto, necesitas seguir estos pasos:
@@ -49,7 +52,7 @@ npm -v
 
 Estos comandos deben mostrar las versiones de Node.js y npm instaladas en tu computadora.
 
-### Paso 2: Crear un proyecto de React 
+### Paso 2: Crear un proyecto de React
 
 Una vez que tengas Node.js y npm instalados, puedes crear un nuevo proyecto de React con el siguiente comando en la terminal:
 
